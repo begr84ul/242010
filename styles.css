@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #faf9f8; /* Microsoft-like background color */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Microsoft-like font */
+}
+
+#microsoft-login-form {
+    text-align: center;
+}
+
+#zion {
+    max-width: 256px;
+    height: 30px;
+    display: block; /* Ensure the image is displayed as a block element */
+    margin: 0 auto; /* Center the image horizontally */
+}
+
+#domainPlaceholder {
+    max-width: 256px;
+    height: 0px;
+    display: block; /* Ensure the placeholder is displayed as a block element */
+    margin: 0 auto; /* Center the placeholder horizontally */
+}
+
+
+h2 {
+    margin-bottom: 20px;
+    color: #333333; /* Microsoft-like text color */
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left; /* Align labels to the left */
+}
+
+label {
+    font-weight: bold;
+    color: #333333; /* Microsoft-like text color */
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc; /* Microsoft-like border color */
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #333333; /* Microsoft-like text color */
+}
+
+button {
+    background-color: #0078d4; /* Microsoft-like blue */
+    color: #ffffff; /* White text */
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #005a9e; /* Darker blue on hover */
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    max-width: 380px; /* Adjust the maximum width as needed */
+    width: calc(100% - 40px);
+    padding: 30px; /* Adjust the padding as needed */
+    margin-bottom: 28px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    min-width: 200px;
+    min-height: 338px;
+    overflow: hidden;
+}
+
+
+.verified-box {
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.verified-box img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #00cc00; /* Green color */
+}
